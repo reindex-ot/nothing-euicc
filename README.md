@@ -1,6 +1,6 @@
 # Nothing EUICC Force Enabler
 eSIMに非対応なNothingのデバイスでも強制的にeSIMを有効化させます。<br>
-本来はSystem LPA(OS由来のeSIM管理機能)が使える状態にしたかったのですが、できていません。
+**v2.0でシステムLPAに対応しました! (Qualcomm デバイスのみ)**
 
 というかOSをほぼ弄ることも無かったのでNothing OS以外でも動くと思います。
 
@@ -11,8 +11,9 @@ eSIMに非対応なNothingのデバイスでも強制的にeSIMを有効化さ�
 このモジュールを使用したことでデータの消失などがあったとしても**一切責任は負いません。**
 
 ## English
-This forcibly enables eSIM on Nothing devices that do not officially support it.
-Originally, I wanted to enable System LPA (the OS-based eSIM management feature), but I wasn't able to do that.
+This forcibly enables eSIM on Nothing devices that do not officially support it.<br>
+**v2.0 System LPA Supported! (Qualcomm Devices Only)**
+
 Actually, I barely modified the ROM itself, so I think it should work on systems other than Nothing OS as well.
 
 ## DISCLAIMER
