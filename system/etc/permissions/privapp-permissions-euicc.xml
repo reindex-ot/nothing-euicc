@@ -29,7 +29,8 @@ It allows additional grants on top of privapp-permissions-platform.xml
 	<permission name="android.permission.WRITE_SECURE_SETTINGS"/>
 	<permission name="android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
 	<permission name="com.android.permission.INSTALL_EXISTING_PACKAGES" />
-	<permission name="com.android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>    </privapp-permissions>
+	<permission name="com.android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
+    </privapp-permissions>
     <privapp-permissions package="com.android.carrierconfig">
         <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
         <permission name="android.permission.MODIFY_PHONE_STATE"/>
