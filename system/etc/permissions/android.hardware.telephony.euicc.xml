@@ -17,4 +17,5 @@
 <!-- Feature for devices with an eUICC. -->
 <permissions>
     <feature name="android.hardware.telephony.euicc" />
+    <feature name="android.hardware.telephony.euicc.mep" />
 </permissions>

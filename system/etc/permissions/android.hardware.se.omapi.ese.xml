@@ -18,4 +18,5 @@
      Open Mobile API capable ESE-based secure elements-->
 <permissions>
     <feature name="android.hardware.se.omapi.ese" />
+    <feature name="android.hardware.se.omapi.uicc" />
 </permissions>
