@@ -13,6 +13,7 @@ eSIM に非対応な Nothing のデバイスでも強制的に eSIM の機能を
 - Nothing Phone (1)
 - Nothing Phone (2)
 - Nothing Phone (2a) - **システム LPA は動作しません**
+- Nothing Phone (3a) - **SKU の影響でシステム LPA が動作しません (JPN は未確認)**
 - CMF Phone 1 - **システム LPA は動作しません**
 
 ## サポートしている物理 eSIM
