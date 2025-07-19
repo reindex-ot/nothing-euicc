@@ -2,7 +2,7 @@
 eSIM に非対応な Nothing のデバイスでも強制的に eSIM の機能を有効化させます。<br>
 **v2.0 でシステム LPA に対応しました! (Qualcomm のデバイスのみ)**
 
-> [!Important]
+> [!IMPORTANT]
 > システム LPA が動作しないと OS 単体での eSIM のダウンロードや切り替えの操作はできません。
 >
 >  現在、MTK のデバイスでシステム LPA は使用できません。
@@ -18,13 +18,14 @@ eSIM に非対応な Nothing のデバイスでも強制的に eSIM の機能を
 
 ## サポートしている物理 eSIM
 動作報告をいただけると光栄です。
+> [!TIP]
+> eSTK.me は STK メニューから 「eUICC としてアナウンス」または、ATR Mode 内の「eUICC Mark」を有効化する必要があります。
+>
+> それを行わないとシステム LPA で eSIM のダウンロードが行えません。
 - eSTK.me (eSIM の切り替え、ダウンロード共に使用可能です)
 - 5ber eSIM (eSIM の切り替えのみ対応)
 
 ## 注意
-中の人はグローバル版な NP3a を持っていないので**そちらでも動作するのかは未確認**です。<br>
-本来は SIM の 2 枚目として認識するのですが、**それも動作するのか未確認**です。
-
 このモジュールを使用したことでデータの消失などがあったとしても**一切責任は負いません。**
 
 # Note (English)
@@ -37,6 +38,7 @@ Actually, I barely modified the ROM itself, so I think it should work on systems
 - Nothing Phone (1)
 - Nothing Phone (2)
 - Nothing Phone (2a) - **System LPA not work**
+- Nothing Phone (3a) - **SKU is causing the LPA system to malfunction (JPN status unconfirmed)**
 - CMF Phone 1 - **System LPA not work**
 
 ## Supported Physical eSIM
@@ -44,6 +46,4 @@ Actually, I barely modified the ROM itself, so I think it should work on systems
 - 5ber eSIM (Supports eSIM switching only)
 
 ## DISCLAIMER
-The person behind this (developer) does not own a global version of the NP3a, so it is unconfirmed whether it works.
-It is supposed to be recognized as the second SIM, but that too is unconfirmed.
 I take no responsibility whatsoever for any data loss or other issues caused by using this module.
