@@ -13,7 +13,8 @@ eSIM に非対応な Nothing のデバイスでも強制的に eSIM の機能を
 - Nothing Phone (1)
 - Nothing Phone (2)
 - Nothing Phone (2a) - **システム LPA は動作しません**
-- Nothing Phone (3a) - **SKU の影響でシステム LPA が動作しません (JPN は未確認)**
+- Nothing Phone (3a) - **Phone(3) と同様の動作？ (未確認)**
+- Nothing Phone (3) - **システム LPA は動作しますが、内部の eSIM (スロット 2) を優先するため使用不可** 
 - CMF Phone 1 - **システム LPA は動作しません**
 
 ## サポートしている物理 eSIM
@@ -38,7 +39,8 @@ Actually, I barely modified the ROM itself, so I think it should work on systems
 - Nothing Phone (1)
 - Nothing Phone (2)
 - Nothing Phone (2a) - **System LPA not work**
-- Nothing Phone (3a) - **SKU is causing the LPA system to malfunction (JPN status unconfirmed)**
+- Nothing Phone (3a) - **Similar behavior to the Phone (3)? (Unconfirmed)**
+- Nothing Phone (3) - **While the system LPA works, it's unusable as the phone gives priority to the internal eSIM (Slot 2)**
 - CMF Phone 1 - **System LPA not work**
 
 ## Supported Physical eSIM
